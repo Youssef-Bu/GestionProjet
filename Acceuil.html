@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gestion projet</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		body {
+			background-color: #f2f2f2;
+			font-family: Arial, sans-serif;
+		}
+		h1 {
+			text-align: center;
+			margin-top: 50px;
+			color: #333;
+		}
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+			margin-top: 50px;
+		}
+		.card {
+			background-color: #fff;
+			border-radius: 5px;
+			box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+			margin: 10px;
+			padding: 20px;
+			text-align: center;
+			width: 300px;
+			height: 200px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
+		.card:hover {
+			box-shadow: 0 4px 8px rgba(0, 0, 0, .3);
+		}
+		.card a {
+			color: #333;
+			text-decoration: none;
+			font-weight: bold;
+			font-size: 1.2em;
+			margin-top: 20px;
+		}
+		.card a:hover {
+			color: #008CBA;
+		}
+	</style>
+</head>
+<body>
+	<h1 onclick="location.reload()">Application de Gestion de Projet</h1>
+	<div class="container">
+		<div class="card">
+			<h2>Créer diagramme MPM</h2>
+			<a href="src/index.html">Commencer</a>
+		</div>
+
+		<div class="card">
+			<h2>Créer diagramme GANTT</h2>
+			<a href="#">Commencer</a>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,5 +1,5 @@
 # Gestion de projet 
-### - Graphe MPM
-### - Diagramme Gantt
+### - Graphe MPM : Terminé
+### - Diagramme Gantt : En cours ..
 ## Demo 
 [youssef-bu.github.io/GestionProjet](https://youssef-bu.github.io/GestionProjet/)
